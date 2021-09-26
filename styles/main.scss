@@ -1,0 +1,29 @@
+@import './grid';
+@import './fonts';
+@import './users-info';
+@import './table-info';
+@import './page_2/rules';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media print{
+    display: none;
+  }
+}

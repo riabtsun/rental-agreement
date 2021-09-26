@@ -1,0 +1,29 @@
+.terms-list {
+
+  // list-style-type: upper-roman;
+  &-item {
+    font-size: 13px;
+  }
+
+  .condition-list {
+    &-item {
+      margin-bottom: 20px;
+      font-size: 13px;
+    }
+  }
+
+  .payments-list{
+    padding-left: 20px;
+    list-style-type: upper-latin;
+    &-item{
+      margin-bottom: 5px;
+    }
+  }
+
+  .custom_text {
+    text-decoration: underline;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    font-weight: bold;
+  }
+}

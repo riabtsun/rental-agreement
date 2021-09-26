@@ -1,0 +1,40 @@
+.table-info {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 13px;
+  width: inherit;
+
+  th {
+    background-color: #f2f3fe;
+  }
+
+  th,
+  td {
+    padding: 10px 10px;
+    border: 1px solid #e6e8f0;
+    background-color: #F2F3FE;
+    text-align: center;
+    @media screen and(min-width: 576px) {
+      padding: 10px 20px;
+    }
+  }
+
+  td {
+    background-color: #FCFCFF;
+  }
+}
+
+
+.total-equipment {
+  font-size: 13px;
+  text-align: center;
+
+  span {
+    font-weight: bold;
+    margin-right: 50px;
+
+    @media screen and(min-width: 768px) {
+      margin-right: 200px;
+    }
+  }
+}
